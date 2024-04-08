@@ -648,6 +648,7 @@ img {
   height: -20px;
 }
 
+
 /* interior design package sir 
 .indepa {
   background-color: var(--clr-light);
@@ -730,6 +731,29 @@ img {
   margin-bottom: 20px;
   font-weight: 700;
 }
+
+/*MOBILE UPDATES*/
+@media (max-width: 520px) {
+  .updatesBanner{
+  flex-direction: column;
+  }
+  .updatesBanner__wrapper img{
+      display: none;
+  }
+  .updatesBanner__wrapper{
+      flex-direction: column;
+  }
+  .design_wrapper{
+      flex-direction: column;
+  }
+  .design_wrapper{
+      grid-template-columns: 1fr;
+      display: grid;
+      
+  }
+}
+
+
 /*BUILDING DESIGN AND CATEGORIES*/
 /*building design*/
 
@@ -868,6 +892,20 @@ img {
 }
 .contact__info h2 {
   color: var(--clr-light);
+}
+@media screen and (max-width: 520px){
+  .contact__form{
+    flex-direction: column;
+}
+.contactBanner__wrapper{
+  grid-template-columns: 1fr;
+    gap: 1rem;  
+}
+.contact__form button{
+ align-items: center;
+ justify-content: center;
+}
+
 }
 
 /*REPEATABLE*/
