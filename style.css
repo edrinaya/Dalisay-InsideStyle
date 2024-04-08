@@ -647,6 +647,35 @@ img {
   margin-left: 6rem;
   height: -20px;
 }
+@media screen and (max-width: 520px) {
+  .package__theme{
+    display: grid;
+    grid-template-columns: 390px;
+  }
+  .package__wrapper h2{
+    font-size: 4.5rem;
+  }
+  
+  .package__left img{
+    margin-bottom: 0rem;
+    display: flex;
+    width: 37rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .package__right {
+    padding: 0rem 0rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .package__right h2{
+    margin-right: 0rem;
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+}
 
 
 /* interior design package sir 
